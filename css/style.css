@@ -1,6 +1,6 @@
 /*reset*/
 * { box-sizing: border-box }
-body,html,section { width:100%; height:100%;overflow: hidden; }
+body,html,section { width:100%; height:100%;overflow: hidden }
 body{  font-family: "Microsoft YaHei",tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif; color: white; font-size: 14px;   }
 html,h1,h2,h3,ul,body,li,img,a,div,header,p,span,section{ padding:0; margin:0}
 ul { list-style: none}
@@ -8,7 +8,7 @@ a { color:white; text-decoration: none;}
 button { outline: none}
 /*/head*/
 body { position:relative;}
-#head { width:100%; height:50px;position:absolute;left:0;top:0;z-index: 9;background-color:#393D49; display: none;  }
+#head { width:100%; height:50px;position:absolute;left:0;top:0;z-index: 9;background-color:#393D49;display:none   }
 #head > div:nth-of-type(1) { position:absolute; right:30%; top:0; height:50px; width:400px }
 #head > div:nth-of-type(2) { position:absolute; right:20px; top:0; height:50px; text-align: center; padding-top:5px  }
 #head  a { display:inline-block; height:50px; line-height: 50px; padding:0 15px; }
